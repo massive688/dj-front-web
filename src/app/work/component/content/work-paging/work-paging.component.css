@@ -1,0 +1,33 @@
+.inline {
+  display: inline-block; }
+  .inline .total {
+    float: right; }
+  .inline input {
+    max-width: 54px;
+    height: 22px;
+    padding: 3px 6px; }
+  .inline .input-group-addon {
+    width: auto;
+    padding: 3px 6px;
+    background-color: transparent;
+    color: #ffffff;
+    border: 0; }
+  .inline .input-group-addon:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px; }
+  .inline .input-group-addon:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px; }
+  .inline a, .inline input-group-addon, .inline input {
+    background-color: transparent;
+    color: #ffffff; }
+
+.inline.pagination {
+  margin: 12px 0; }
+  .inline.pagination .active > a {
+    border-color: #45a9ff; }
+
+.inline.total {
+  line-height: 45px; }
+
+/*# sourceMappingURL=work-paging.component.css.map */

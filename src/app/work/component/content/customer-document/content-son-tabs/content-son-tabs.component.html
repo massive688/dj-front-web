@@ -1,0 +1,39 @@
+<div>
+  <ul id="myTab" class="nav nav-tabs">
+    <li *ngFor="let tabCode of tabCodes;" [class.active]="tabCode.active" (click)="activeTab($event.currentTarget,tabCode)">
+      <a [href]="tabCode.code | tabHref"  data-toggle="tab">{{tabCode.name}}</a>
+    </li>
+    <!--
+    <li class="active"><a href="#home" data-toggle="tab">教程</a></li>
+    <li><a href="#ios" data-toggle="tab">iOS</a></li>
+    <li><a href="#jmeter" data-toggle="tab">jmeter</a></li>
+    <li><a href="#ejb" data-toggle="tab">ejb</a></li>
+    <li class="dropdown">
+      <a href="#" id="myTabDrop1" class="dropdown-toggle"
+         data-toggle="dropdown">
+        Java <b class="caret"></b></a>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="myTabDrop1">
+        <li><a href="#jmeter" tabindex="-1" data-toggle="tab">jmeter</a></li>
+        <li><a href="#ejb" tabindex="-1" data-toggle="tab">ejb</a></li>
+      </ul>
+    </li>-->
+  </ul>
+  <div id="myTabContent" class="tab-content" >
+    <ng-container #myTabContent ></ng-container>
+    <!--
+
+    <content-son-tab >loading......</content-son-tab>
+    <div class="tab-pane fade" id="ios">
+
+      <content-table [tableRows]="tabRows" [isNeedRouterNavigate]="isNeedRouterNavigate">loading......</content-table>
+    </div>
+    <div class="tab-pane fade" id="jmeter">
+
+      <content-table [tableRows]="tabRows" [isNeedRouterNavigate]="isNeedRouterNavigate">loading......</content-table>
+    </div>
+    <div class="tab-pane fade" id="ejb">
+
+      <content-table [tableRows]="tabRows" [isNeedRouterNavigate]="isNeedRouterNavigate">loading......</content-table>
+    </div>-->
+  </div>
+</div>

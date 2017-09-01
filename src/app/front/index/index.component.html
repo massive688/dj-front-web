@@ -1,0 +1,16 @@
+
+<div [ngStyle]="{'margin-top':isScrollTop()?'500px':0}">
+  index works!
+  <div class="" style="text-align: center; width: 100%;">das;</div>
+  <button (click)="goOut()" style="width: 100px; height: 50px;">conmanto</button>
+  <input type="checkbox" [(ngModel)]="this.server.isWork" (click)="send"> 显示后台
+  <p>
+    <input type="text" [(ngModel)]="greeting">
+  </p>
+  <p *ngFor="let item of items, let i = index">
+    {{i}},
+    444,
+    {{greeting}}
+  </p>
+
+</div>

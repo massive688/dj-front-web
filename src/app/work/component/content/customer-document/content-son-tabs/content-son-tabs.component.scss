@@ -1,0 +1,14 @@
+.nav.nav-tabs{
+  &  > li > a {
+    padding: 6px 15px;
+    border: 0;
+    border-radius: 50% 0 0 0 ;
+    color: #edffe6;
+  }
+  &  > li > a:hover {
+    color: #5b90ff;
+  }
+  &  > .active > a {
+    color: #6e70cb;
+  }
+}

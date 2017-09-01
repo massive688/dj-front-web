@@ -1,0 +1,17 @@
+
+$trHeight: 38.4px;
+
+.horizontal-scroll{
+  overflow-x: auto;
+  min-height: $trHeight * 6;
+  max-height: $trHeight * 11;
+  & .table-hover {
+    & > tbody {
+      & > tr:hover{
+        background-color: #eeeeee;
+        color: black;
+      }
+    }
+  }
+}
+

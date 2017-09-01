@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACJ,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,QAAQ;EACvB,QAAQ,EAAE,MAAM",
+"sources": ["table-cell.component.scss"],
+"names": [],
+"file": "table-cell.component.css"
+}

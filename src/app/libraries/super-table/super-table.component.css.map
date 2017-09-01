@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACJ,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,KAAK;;AAEhB,gBAAiB;EACf,UAAU,EAAE,MAAM",
+"sources": ["super-table.component.scss"],
+"names": [],
+"file": "super-table.component.css"
+}

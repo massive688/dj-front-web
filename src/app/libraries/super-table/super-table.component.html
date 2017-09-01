@@ -1,0 +1,19 @@
+
+<super-table-head [tableClasses]="tableClasses"></super-table-head>
+
+<super-table-body
+  *ngIf="isReady"
+  [rows]="filteredSortedRows"
+  [tableClasses]="tableClasses"
+  [options]="options"
+  [style.height]="bodyHeight + 'px'"
+  [bodyHeight]="bodyHeight">
+</super-table-body>
+
+<div
+  class="loading-message"
+  *ngIf="!isReady && !hasError">
+  Loading...
+</div>
+
+<div *ngIf="hasError">An error occurred.</div>

@@ -1,0 +1,17 @@
+<div class="">
+  <content-card class="table-item-container col-lg-3 col-md-6 col-sm-12 col-12 smart-table-container"
+    [title]="searchTitle" cardTitle="Basic Example" workCardClass="with-scroll">
+    <!--<ng2-smart-table [settings]="settings" [source]="source" (deleteConfirm)="onDeleteConfirm($event)"></ng2-smart-table>-->
+
+    <search-table></search-table>
+
+  </content-card>
+  <content-card [buttons]="operationActions" class="table-item-container col-lg-3 col-md-6 col-sm-12 col-12">
+
+    <content-table [tableRows]="customers" [isNeedRouterNavigate]="needRouterNavigate"></content-table>
+
+  </content-card>
+  <work-paging class="full-width text-right"></work-paging>
+
+  <content-son-tabs [tabCodes]="tabCodes" [tabRows]="customers"  [isNeedRouterNavigate]="!needRouterNavigate"></content-son-tabs>
+</div>

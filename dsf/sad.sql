@@ -1,1 +1,0 @@
-select * from mis_aaaaa

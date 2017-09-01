@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,kBAAkB;EAChB,UAAU,EAAE,IAAI;EAChB,UAAU,EAAE,OAAa;EACzB,UAAU,EAAE,OAAc;EAGtB,kDAAY;IACV,gBAAgB,EAAE,OAAO;IACzB,KAAK,EAAE,KAAK",
+"sources": ["content-table.component.scss"],
+"names": [],
+"file": "content-table.component.css"
+}

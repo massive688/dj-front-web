@@ -1,0 +1,20 @@
+<div  class="animated fadeIn card" zoom-in>
+  <div *ngIf="title" class="row card-header title">
+    <span class="card-title " translate>{{title}}</span>
+    <span class="pull-right" translate (click)="execSearch()">执行查询</span>
+  </div>
+  <div  *ngIf="buttons" class="row card-header operations">
+    <div *ngFor="let btn of buttons" class="operation-action ">
+      <div *ngIf="btn.disable" (click)="btn.clickFunction()"  class="operation-action ">
+        <h3 class="card-title" translate>{{btn.title}}</h3>
+      </div>
+    </div>
+
+    <!--<div *ngIf="cardDel" class="operation-action ">
+      <h3 class="card-title" translate>{{cardDelTitle}}</h3>
+    </div>-->
+  </div>
+  <div class="card-body">
+    <ng-content></ng-content>
+  </div>
+</div>

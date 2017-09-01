@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACJ,OAAO,EAAE,KAAK;EACd,QAAQ,EAAE,IAAI;EACd,WAAQ;IACN,MAAM,EAAE,CAAC;IACT,aAAa,EAAE,cAAc;;AAGjC,KAAM;EACJ,YAAY,EAAE,KAAK;EACnB,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,CAAC;EAChB,eAAW;IACT,KAAK,EAAE,OAAO;;AAGlB,qBAAsB;EACpB,OAAO,EAAE,YAAY;EACrB,YAAY,EAAE,CAAC;;AAEjB,oCAAqC;EACnC,UAAU,EAAE,IAAI",
+"sources": ["super-table-body.component.scss"],
+"names": [],
+"file": "super-table-body.component.css"
+}

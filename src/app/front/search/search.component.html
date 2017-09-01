@@ -1,0 +1,16 @@
+
+<div class="text-center" style="padding: 50px 0;">
+  <div class="module-dialog">
+    <div style="padding: 30px; font-family: 'Arial Black'">
+      <i>找你想找的，寻你想要的</i>
+    </div>
+    <form class="input-group" (submit)="submitSearch()">
+      <i class="glyphicon glyphicon-search"></i>
+      <input name="search" type="search" placeholder="搜索" class="form-control"  [(ngModel)]="words">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="submit">寻!</button>
+      </span>
+      <i></i>
+    </form>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+.horizontal-scroll {
+  overflow-x: auto;
+  min-height: 230.4px;
+  max-height: 422.4px; }
+  .horizontal-scroll .table-hover > tbody > tr:hover {
+    background-color: #eeeeee;
+    color: black; }
+
+/*# sourceMappingURL=content-table.component.css.map */

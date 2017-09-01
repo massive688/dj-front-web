@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACJ,MAAM,EAAE,eAAe;;AAEzB,EAAG;EACD,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,eAAe;EACvB,iBAAiB,EAAE,MAAM;EACzB,mBAAmB,EAAE,MAAM",
+"sources": ["super-table-dummy-rows.component.scss"],
+"names": [],
+"file": "super-table-dummy-rows.component.css"
+}

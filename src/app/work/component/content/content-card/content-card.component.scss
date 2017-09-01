@@ -1,0 +1,66 @@
+@import "../../../../../assets/scss/conf/conf.scss";
+
+h3{
+  margin: 0;
+}
+.card-header{
+  padding: 7px;
+  height: auto;
+  & span {
+    cursor: pointer;
+  }
+}
+.card-header.title{
+
+}
+.operations .operation-action{
+  border-right: 1px solid #ffffff;
+  float: left;
+  padding: 5px;
+  cursor: pointer;
+}
+.card-title:hover{
+  color: #bfcccc;
+}
+.operations .operation-action:last-child{
+  border-right: 0;
+}
+.row{
+  margin: 0;
+}
+@media screen and (max-width: $resXS) {
+
+}
+.card-title{
+  font-size: 1.1em;
+}
+.card-body{
+  padding: 5px;
+}
+
+.modal {
+  padding-top: 300px;
+
+  .modal-content {
+    color: $dropdown-text;
+
+    .modal-header {
+      border: none;
+    }
+
+    .modal-footer {
+      border: none;
+    }
+
+    .close {
+      outline: none;
+    }
+  }
+}
+
+.modal-buttons .btn {
+  margin-right: 20px;
+}
+.pull-right {
+  margin-right: 5px;
+}

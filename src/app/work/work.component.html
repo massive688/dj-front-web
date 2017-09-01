@@ -1,0 +1,28 @@
+
+  <main id="work-main" [class.menu-collapsed]="isMenuCollapsed" >
+    <div workThemeRun>
+    <div class="additional-bg" ></div>
+    <work-sidebar></work-sidebar>
+    <work-top></work-top>
+
+    <div class="work-main">
+      <div class="work-content">
+        <work-content-top></work-content-top>
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+    <footer class="work-footer clearfix">
+      <div class="work-footer-right" translate>{{'general.created_with'}} <i class="ion-heart"></i></div>
+      <div class="work-footer-main clearfix">
+        <div class="work-copy">&copy; <a href="/" translate>{{'general.customer.dream_version'}}</a> 2017</div>
+        <ul class="work-share clearfix">
+          <li><i class="i-adream-plane-red"></i></li>
+          <li><i class="socicon socicon-twitter"></i></li>
+          <li><i class="socicon socicon-google"></i></li>
+          <li><i class="socicon socicon-github"></i></li>
+        </ul>
+      </div>
+    </footer>
+    <work-back-top position="200"></work-back-top>
+    </div>
+  </main>

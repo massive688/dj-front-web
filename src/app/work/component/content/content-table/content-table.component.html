@@ -1,0 +1,64 @@
+<!--
+<div class="horizontal-scroll">
+  <table class="table fixed-table table-hover-header">
+    <thead>
+    <tr class="black-muted-bg">
+      <th class="browser-icons" [ngStyle]="{'width':firstWidth}"></th>
+      <th class="table-arr"></th>
+      <th>Browser</th>
+      <th class="table-arr"></th>
+      <th class="align-right">Visits</th>
+      <th class="table-arr"></th>
+      <th class="align-right">Purchases</th>
+      <th class="table-arr"></th>
+      <th class="align-right">%</th>
+      <th class="table-arr"></th>
+      <th class="align-right">Visits</th>
+      <th class="table-arr"></th>
+      <th class="align-right">Purchases</th>
+      <th class="table-arr"></th>
+      <th class="align-right">%</th>
+      <th class="table-arr"></th>
+      <th class="align-right">Visits</th>
+      <th class="table-arr"></th>
+      <th class="align-right">Purchases</th>
+      <th class="table-arr"></th>
+      <th class="align-right">%</th>
+      <th class="table-arr"></th>
+    </tr>
+    </thead>
+  </table>
+  <table class="table table-hover">
+    <tbody>
+    <tr *ngFor="let item of tableRows" class="no-top-border" (click)="rowClick($event,item)"  >
+      <td><img src="{{ ( item.image | workAppPicture ) }}" width="20" height="20"></td>
+      <td class="table-arr"><i [ngClass]="{'icon-up': item.isVisitsUp, 'icon-down': !item.isVisitsUp }"></i></td>
+      <td ngClass="nowrap" tableWidth >{{item.browser}}</td>
+      <td class="table-arr"><i [ngClass]="{'icon-up': item.isVisitsUp, 'icon-down': !item.isVisitsUp }"></i></td>
+      <td class="align-right">{{item.visits}}</td>
+      <td class="table-arr"><i [ngClass]="{'icon-up': item.isVisitsUp, 'icon-down': !item.isVisitsUp }"></i></td>
+      <td class="align-right">{{item.purchases}}</td>
+      <td class="table-arr"><i [ngClass]="{'icon-up': item.isPurchasesUp, 'icon-down': !item.isPurchasesUp }"></i></td>
+      <td class="align-right">{{item.percent}}</td>
+      <td class="table-arr"><i [ngClass]="{'icon-up': item.isPercentUp, 'icon-down': !item.isPercentUp }"></i></td>
+      <td class="align-right">{{item.visits}}</td>
+      <td class="table-arr"><i [ngClass]="{'icon-up': item.isVisitsUp, 'icon-down': !item.isVisitsUp }"></i></td>
+      <td class="align-right">{{item.purchases}}</td>
+      <td class="table-arr"><i [ngClass]="{'icon-up': item.isPurchasesUp, 'icon-down': !item.isPurchasesUp }"></i></td>
+      <td class="align-right">{{item.percent}}</td>
+      <td class="table-arr"><i [ngClass]="{'icon-up': item.isPercentUp, 'icon-down': !item.isPercentUp }"></i></td>
+      <td class="align-right">{{item.visits}}</td>
+      <td class="table-arr"><i [ngClass]="{'icon-up': item.isVisitsUp, 'icon-down': !item.isVisitsUp }"></i></td>
+      <td class="align-right">{{item.purchases}}</td>
+      <td class="table-arr"><i [ngClass]="{'icon-up': item.isPurchasesUp, 'icon-down': !item.isPurchasesUp }"></i></td>
+      <td class="align-right">{{item.percent}}</td>
+      <td class="table-arr"><i [ngClass]="{'icon-up': item.isPercentUp, 'icon-down': !item.isPercentUp }"></i></td>
+    </tr>
+    </tbody>
+  </table>
+</div>
+-->
+<!--
+<ya-table [options]="options" [paging]="paging" [columns]="columns" [datasource]="datasource" ></ya-table>
+-->
+<ya-table  style ="height:500px; display: block;">loading......</ya-table>

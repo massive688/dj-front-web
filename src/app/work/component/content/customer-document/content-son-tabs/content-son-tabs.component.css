@@ -1,0 +1,11 @@
+.nav.nav-tabs > li > a {
+  padding: 6px 15px;
+  border: 0;
+  border-radius: 50% 0 0 0;
+  color: #edffe6; }
+.nav.nav-tabs > li > a:hover {
+  color: #5b90ff; }
+.nav.nav-tabs > .active > a {
+  color: #6e70cb; }
+
+/*# sourceMappingURL=content-son-tabs.component.css.map */

@@ -1,0 +1,23 @@
+.horizontal-scroll {
+  overflow-x: auto; }
+
+.search-table table tbody tr:hover {
+  background-color: transparent;
+  color: #ffffff; }
+.search-table .clean-up {
+  cursor: pointer;
+  transition: all 0.1s ease;
+  font-size: 0.9rem; }
+.search-table .clean-up:hover {
+  transform: scale(1.1);
+  color: #bbb7b5; }
+.search-table input {
+  width: 100%;
+  color: #1d2c09; }
+.search-table th > .input {
+  text-align: center;
+  min-width: 97px;
+  max-width: 197px;
+  overflow-x: hidden; }
+
+/*# sourceMappingURL=search-table.component.css.map */

@@ -1,0 +1,9 @@
+<button
+  [attr.title]="filter.title"
+  role="button"
+  (click)="toggleVisibility($event)"
+  [ngClass]="{ hasDisabled : disabledFilterCount }">
+  <strong>{{ filter.placeholder }}:</strong>
+  <span [hidden]="disabledFilterCount != 0">showing all</span>
+  <span [hidden]="disabledFilterCount == 0">filtering {{disabledFilterCount}} value(s)</span>
+</button>

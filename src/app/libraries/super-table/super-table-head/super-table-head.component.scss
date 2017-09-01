@@ -1,0 +1,25 @@
+:host {
+  overflow: hidden;
+  display: block;
+  margin-right: 6px;
+  background-color: #ffffff;
+  color: #1d2c09;
+  & table {
+    border: 0;
+    border-top: 1px solid #ddd;
+  }
+}
+
+.hasSort {
+  cursor: pointer;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 0;
+  border-bottom: none;
+}
+.filter-row td {
+  padding: 0;
+  vertical-align: middle;
+}

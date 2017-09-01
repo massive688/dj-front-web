@@ -1,0 +1,28 @@
+.horizontal-scroll{
+  overflow-x: auto;
+}
+.search-table{
+  & table tbody tr:hover {
+    background-color: transparent;
+    color: #ffffff;
+  }
+  & .clean-up {
+    cursor: pointer;
+    transition: all 0.1s ease;
+    font-size: 0.9rem;
+  }
+  & .clean-up:hover {
+    transform: scale(1.1);
+    color: #bbb7b5;
+  }
+  & input {
+    width: 100%;
+    color: #1d2c09;
+  }
+  & th > .input  {
+    text-align: center;
+    min-width: 97px;
+    max-width: 197px;
+    overflow-x: hidden;
+  }
+}

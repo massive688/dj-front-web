@@ -1,0 +1,22 @@
+:host {
+  display: block;
+  overflow: auto; }
+  :host table {
+    border: 0;
+    border-bottom: 1px solid #ddd; }
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  margin-bottom: 0; }
+  table tr.active {
+    color: #3d4cff; }
+
+thead.sizing-thead th {
+  padding: 0 !important;
+  border-width: 0; }
+
+tbody.dummy-rows, tbody.visible-rows {
+  border-top: none; }
+
+/*# sourceMappingURL=super-table-body.component.css.map */

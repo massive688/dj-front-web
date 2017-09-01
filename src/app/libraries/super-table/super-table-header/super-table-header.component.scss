@@ -1,0 +1,26 @@
+:host {
+  position:relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+:host:hover .sort-icon {
+  opacity: 1;
+}
+.table-header-div {
+  position: relative;
+}
+.sort-icon {
+  font-size: 70%;
+  opacity: 1;
+  color: #168cef;
+  text-shadow: 0 1px 2px rgba(22, 140, 239, 0.6);
+}
+.sort-icon .no-sort {
+  opacity: 0.3;
+  text-shadow: none;
+  color: black;
+}

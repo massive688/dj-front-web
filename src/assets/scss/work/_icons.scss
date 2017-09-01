@@ -1,0 +1,42 @@
+@mixin svg-icon($url, $width:'', $height:'') {
+  display: inline-block;
+  background: url($url) no-repeat center;
+  background-size: contain;
+  vertical-align: middle;
+  @if ($width != '') {
+    width: $width + px;
+  }
+  @if ($height != '') {
+    height: $height + px;
+  }
+}
+
+@mixin svg-icon-class($resourcePath, $iconName, $width:'', $height:'') {
+  .#{'i-' + $iconName} {
+    @include svg-icon('/assets/' + $resourcePath + '/' + $iconName + '.svg', $width, $height);
+  }
+}
+
+@include svg-icon-class('img','face', 80, 80);
+@include svg-icon-class('img','money', 80, 80);
+@include svg-icon-class('img','person', 80, 80);
+@include svg-icon-class('img','refresh', 80, 80);
+@include svg-icon-class('fonts','adream-plane-black', 28, 28);
+@include svg-icon-class('fonts','adream-plane-white', 28, 28);
+@include svg-icon-class('fonts','adream-plane-red', 28, 28);
+
+@mixin png-icon($url, $width, $height) {
+  display: inline-block;
+  width: $width + px;
+  height: $height + px;
+  background: url($url) no-repeat center center;
+  background-size: $width + px $height + px;
+}
+
+@mixin png-icon-class($iconName, $width, $height) {
+  .#{'i-' + $iconName} {
+    @include png-icon($images-root + $iconName + '.png', $width, $height);
+  }
+}
+
+//@include icon-png-class('arrival-icon', 11, 11);

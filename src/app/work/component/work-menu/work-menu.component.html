@@ -1,0 +1,11 @@
+<ul id="work-sidebar-list" class="work-sidebar-list" workSlimScroll [workSlimScrollOptions]="{height: menuHeight}"
+    (mouseleave)="hoverElemTop=outOfArea">
+  <work-menu-item
+    [menuItem]="item"
+    (itemHover)="hoverItem($event)"
+    (toggleSubMenu)="toggleSubMenu($event)"
+    *ngFor="let item of menuItems"></work-menu-item>
+</ul>
+<div class="sidebar-hover-elem" [ngStyle]="{top: hoverElemTop + 'px', height: hoverElemHeight + 'px'}"
+     [ngClass]="{'show-hover-elem': showHoverElem }">
+</div>

@@ -1,0 +1,37 @@
+:host {
+}
+[name="search"].form-control{
+  padding: 14px 50px;
+  height: 50px;
+}
+.input-group-btn .btn-default{
+  padding: 14px 52px;
+  border-radius: 0;
+  border-left: 0;
+  margin-left: -1px;
+}
+
+.module-dialog{
+  max-width: 50%;margin: 0 auto;
+}
+.glyphicon.glyphicon-search{
+  position: absolute;
+  z-index: 10;
+  left: 15px;
+  font-size: 2rem;
+  top: 16px;
+  color: #f13546;
+}
+@media screen and (max-width: 768px){
+  .module-dialog{
+    max-width: 96%;
+    margin: 2%;
+  }
+  [name="search"].form-control{
+    padding: 14px  10px 14px  50px;
+    height: 50px;
+  }
+  .input-group-btn .btn-default{
+    padding: 14px 24px;
+  }
+}
